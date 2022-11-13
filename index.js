@@ -1,18 +1,3 @@
-
-
-
-/* activepage */
-/* const aktivePage =window.location.pathname;
-const navLink = document.querySelectorAll('nav a')
-forEach(link => {
-    if(link.href.includes(`${aktivePage}`)){
-        link.classList.add('active');
-    }
-    
-}); */
-
-
-
 let allprojects = document.querySelector('.gallery');
 let button = document.createElement('button');
 async function api() {
