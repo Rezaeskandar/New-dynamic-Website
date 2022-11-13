@@ -16,7 +16,7 @@ forEach(link => {
 let allprojects = document.querySelector('.gallery');
 let button = document.createElement('button');
 async function api() {
-    let v1 = "./file.json";
+    let v1 = "file.json";
     let response = await fetch(v1)
     let data = await response.json();
     if (response.ok) {
@@ -127,7 +127,7 @@ let sevice = document.querySelector('.box');
 let box2 = document.querySelector('.box2');
 let box3 = document.querySelector('.box3');
 
-let url = "./services.json";
+let url = "services.json";
 
 async function mycervice() {
     let response = await fetch(url);
@@ -235,7 +235,7 @@ toggle1.addEventListener('click', function () {
 const modala = document.querySelector('.modal-content');
 const paragraph = document.querySelector('.moree');
 
-let urlMore = "./moreabout.json";
+let urlMore = "moreabout.json";
 
 async function modalMore(){
     let response = await fetch(urlMore);
