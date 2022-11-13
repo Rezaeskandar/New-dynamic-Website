@@ -10,33 +10,35 @@
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-body{
+body {
     background-color: #71ccedc3;
 }
 
 /* skills  */
-.skills{
-background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
-position: relative;
-width: 350px;
-border-radius: 8px;
-overflow: hidden;
-transition: 0.5s linear;
-text-align: center;
+.skills {
+    background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
+    position: relative;
+    width: 350px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.5s linear;
+    text-align: center;
 }
 
-.skill{
+.skill {
     position: relative;
     margin: 25px;
 
 }
-.skill-name{
+
+.skill-name {
     color: #b1b1a9;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 350;
 }
-.skill-bar{
+
+.skill-bar {
     position: relative;
     width: 85%;
     height: 8px;
@@ -45,101 +47,116 @@ text-align: center;
 
 }
 
-.progressone,.progresstow,.progresstree{
+.progressone,
+.progresstow,
+.progresstree {
     height: 4px;
     width: 50%;
     border-radius: 4px;
-    
+
 
 }
-.progressone{
-    background:#f30453 ;
+
+.progressone {
+    background: #f30453;
     box-shadow: 0 0 15px 4px #f30453;
     width: 0%;
 }
-.progresstow{
+
+.progresstow {
     background: rgb(105, 225, 14);
     box-shadow: 0 0 15px 4px rgb(105, 225, 14);
     width: 0%;
 }
-.progresstree{
+
+.progresstree {
     background: rgb(220, 231, 9);
     box-shadow: 0 0 15px 4px rgb(220, 231, 9);
     width: 0%;
 }
 
-.procentone,.procenttow,.procenttree{
+.procentone,
+.procenttow,
+.procenttree {
     position: absolute;
     width: 20px;
     height: 20px;
     border: 2px solid red;
     border-radius: 20px;
     padding: 5px;
-    color:#b1b1a9 ;
-   border-radius: 50px;
-   top: -20px;
-   right: -50px;
-   transition: 0.4s linear;
-   line-height: 30px;
+    color: #b1b1a9;
+    border-radius: 50px;
+    top: -20px;
+    right: -50px;
+    transition: 0.4s linear;
+    line-height: 30px;
 
 }
 
-.procentone{
+.procentone {
     border: 2px solid #f30453;
-    
-    
-}
-.procenttow{
-    border: 2px solid rgb(105, 225, 14);
-   
-    
-}
-.procenttree{
-    border: 2px solid rgb(220, 231, 9);
-    
-}
-.skills:hover{
-    transform: translateY(-20px);
-   
+
+
 }
 
-.skills:hover .procentone{
+.procenttow {
+    border: 2px solid rgb(105, 225, 14);
+
+
+}
+
+.procenttree {
+    border: 2px solid rgb(220, 231, 9);
+
+}
+
+.skills:hover {
+    transform: translateY(-20px);
+
+}
+
+.skills:hover .procentone {
 
     box-shadow: 0 0 10px 4px #f30453;
-    
+
 }
-.skills:hover .procenttow{
+
+.skills:hover .procenttow {
 
     box-shadow: 0 0 15px 4px rgb(105, 225, 14);
     transition-delay: 0.5s;
 }
-.skills:hover .procenttree{
+
+.skills:hover .procenttree {
 
     box-shadow: 0 0 15px 4px rgb(220, 231, 9);
     transition-delay: 1s;
 }
-.skills:hover .progressone{
 
-    width: 60%; 
+.skills:hover .progressone {
+
+    width: 60%;
     transition: 0.3s linear;
-      
+
 }
 
-.skills:hover .progresstow{
+.skills:hover .progresstow {
     width: 40%;
     transition-delay: 0.5s;
     transition: 0.5s linear;
 }
 
-.skills:hover .progresstree{
+.skills:hover .progresstree {
 
-  width: 50%;
-  transition-delay: 2s;
-  transition: 0.7s linear;
+    width: 50%;
+    transition-delay: 2s;
+    transition: 0.7s linear;
 }
+
 /* imgage modal */
 
 .imageDom {
+    background: url('img/bildcvModal.jpg');
     height: 100px;
     width: 100px;
     border-radius: 50px;
@@ -148,46 +165,49 @@ text-align: center;
 
 /* service style */
 
-.service-style{
-   
+.service-style {
+
     margin-top: 20px;
     text-align: center;
-   
-    
+
+
 
 }
-.service-style li{
-    border:1px solid #1b1b1b;
+
+.service-style li {
+    border: 1px solid #1b1b1b;
     padding: 2px;
     border-radius: 5px;
     margin: 1px;
-    box-shadow: 0 0 10px ;
-    
+    box-shadow: 0 0 10px;
+
 }
 
-.service-style li:hover{
+.service-style li:hover {
     background-color: #ccff33;
     color: #1b1b1b;
     font-style: bold;
     transition: 0.4s linear;
 }
 
-.service-style li:hover{
+.service-style li:hover {
     transform: translateX(-20px);
 }
 
 
 /* form modal popup */
-.form-container{
+.form-container {
     height: 150px;
     width: 450px;
 }
-.form-container{
-    
-    max-width: 450px ;
+
+.form-container {
+
+    max-width: 450px;
     max-height: 350px;
 }
-.btn-submit{
+
+.btn-submit {
     padding: 10px 15px;
     background-color: transparent;
     border: 1px solid rgb(102, 101, 101);
@@ -197,12 +217,14 @@ text-align: center;
     border-radius: 5px;
 
 }
-.btn-submit:hover{
+
+.btn-submit:hover {
     background-color: rgba(140, 65, 65, 0.398);
     cursor: pointer;
     box-shadow: 0 0 5px rgb(145, 80, 80) 0 0 10px rgb(144, 68, 68) 0 0 15px rgb(118, 53, 53);
     color: rgb(15, 235, 26);
 }
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -235,7 +257,7 @@ text-align: center;
     padding: 8px 25px;
     transition: all 0.5s ease;
     position: relative;
-    
+
 
 
 
@@ -248,7 +270,7 @@ text-align: center;
     color: black;
     box-shadow: 0 0 10px white;
     border-radius: 10px;
-   
+
 }
 
 .navbar li.active {
@@ -395,7 +417,7 @@ text-align: center;
     flex-direction: column;
     text-align: justify;
     padding: 20px;
-    
+
 }
 
 #intro h2 {
@@ -535,10 +557,10 @@ h3 {
 }
 
 #send:hover {
-transform: translateY(-10px);
+    transform: translateY(-10px);
     cursor: pointer;
     background-color: rgb(53, 179, 72);
-  
+
 }
 
 #social-media {
@@ -611,7 +633,7 @@ strong {
 strong:hover {
     color: black;
     transition: .7s ease;
-    
+
 }
 
 
@@ -648,8 +670,9 @@ body {
         width: 500px;
         height: 350px;
     }
+
     #intro h2 {
-       
+
         text-align: center;
         padding: 10px;
     }
@@ -684,11 +707,11 @@ body {
         width: 300px;
         height: 15rem;
     }
-  
+
 
     #intro h2 {
         font-size: 1.4rem;
-        
+
     }
 
     /* porfolio */
